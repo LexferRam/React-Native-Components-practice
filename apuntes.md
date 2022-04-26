@@ -32,3 +32,13 @@
 ### API de imagenes
 
 <https://picsum.photos/>
+
+### Carousel
+
+<https://github.com/meliorence/react-native-snap-carousel>
+
+npm install react-native-snap-carousel @types/react-native-snap-carousel
+
+### Themes
+
+<https://reactnavigation.org/docs/themes/>
