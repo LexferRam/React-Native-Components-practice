@@ -20,11 +20,7 @@ import { ThemeProvider } from './src/context/themeContext/ThemeContext';
 const App = () => {
   return (
     <AppState>
-      <NavigationContainer
-      // theme={customTheme}
-      >
         <Navigator />
-      </NavigationContainer>
     </AppState>
   )
 }

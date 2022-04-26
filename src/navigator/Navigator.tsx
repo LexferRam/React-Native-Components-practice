@@ -12,11 +12,13 @@ import { ModalScreen } from '../screens/ModalScreen';
 import { InfiniteScrollScreen } from '../screens/InfiniteScrollScreen';
 import { SlidesScreen } from '../screens/SlidesScreen';
 import { ChangeThemeScreen } from '../screens/ChangeThemeScreen';
+import { NavigationContainer } from '@react-navigation/native';
 
 const Stack = createStackNavigator();
 
 export const Navigator = () => {
   return (
+    <NavigationContainer>
     <Stack.Navigator
         screenOptions={{
             headerShown:false,
@@ -38,5 +40,6 @@ export const Navigator = () => {
       <Stack.Screen name="SlidesScreen" component={SlidesScreen} />
       <Stack.Screen name="ChangeThemeScreen" component={ChangeThemeScreen} />
     </Stack.Navigator>
+    </NavigationContainer>
   );
 }
